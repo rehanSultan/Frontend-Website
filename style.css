@@ -1,0 +1,664 @@
+.rehan-nav {
+  background-color: darkblue;
+}
+
+.rehan-slide img {
+  height: 400px;
+}
+
+.rehancard {
+  margin-top: 250px;
+  margin-left: 160px;
+  display: flex;
+  gap: 80px;
+}
+
+.rehancrd1 {
+  margin-top: 160px;
+  margin-left: 240px;
+  display: flex;
+  gap: 100px;
+}
+
+.rehancrd2 {
+  margin-top: 100px;
+  margin-left: 240px;
+  display: flex;
+  gap: 100px;
+}
+
+.para {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+.heading {
+  margin-left: 370px;
+  margin-top: 100px;
+  font-size: 70px;
+  color: #EEECEB;
+  text-decoration: wavy;
+}
+
+.srvs1 {
+  margin-top: 70px;
+  margin-left: 100px;
+}
+
+.srvs2 {
+  margin-top: 70px;
+  margin-left: 200px;
+}
+
+
+
+.srvs3 {
+  margin-top: -186px;
+  margin-left: 640px;
+  /* display: flex; */
+}
+
+.srvs4 {
+  margin-top: 65px;
+  margin-left: 800px;
+  margin-bottom: 100px
+}
+
+/*************************************** footer start *******************/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  /* min-height: 100vh; */
+  width: 100%;
+  background: #EEECEB;
+}
+
+footer {
+  /* position: fixed; */
+  background: #140B5C;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+footer::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 100px;
+  /* height: 1px; */
+  width: 100%;
+  background: #AFAFB6;
+}
+
+footer .content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 40px 40px;
+}
+
+footer .content .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.content .top .logo-details {
+  color: #fff;
+  font-size: 30px;
+}
+
+.content .top .media-icons {
+  display: flex;
+}
+
+.content .top .media-icons a {
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  /* line-height: 40px; */
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.top .media-icons a:nth-child(1) {
+  background: #4267B2;
+}
+
+.top .media-icons a:nth-child(1):hover {
+  color: #4267B2;
+  background: #fff;
+}
+
+.top .media-icons a:nth-child(2) {
+  background: #1DA1F2;
+}
+
+.top .media-icons a:nth-child(2):hover {
+  color: #1DA1F2;
+  background: #fff;
+}
+
+.top .media-icons a:nth-child(3) {
+  background: #E1306C;
+}
+
+.top .media-icons a:nth-child(3):hover {
+  color: #E1306C;
+  background: #fff;
+}
+
+.top .media-icons a:nth-child(4) {
+  background: #0077B5;
+}
+
+.top .media-icons a:nth-child(4):hover {
+  color: #0077B5;
+  background: #fff;
+}
+
+.top .media-icons a:nth-child(5) {
+  background: #FF0000;
+}
+
+.top .media-icons a:nth-child(5):hover {
+  color: #FF0000;
+  background: #fff;
+}
+
+footer .content .link-boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .content .link-boxes .box {
+  width: calc(100% / 5 - 10px);
+}
+
+.content .link-boxes .box .link_name {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.link-boxes .box .link_name::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 35px;
+  background: #fff;
+}
+
+.content .link-boxes .box li {
+  margin: 6px 0;
+  list-style: none;
+}
+
+.content .link-boxes .box li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease
+}
+
+.content .link-boxes .box li a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.content .link-boxes .input-box {
+  margin-right: 55px;
+}
+
+.link-boxes .input-box input {
+  height: 40px;
+  width: calc(100% + 55px);
+  outline: none;
+  border: 2px solid #AFAFB6;
+  background: #140B5C;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.link-boxes .input-box input::placeholder {
+  color: #AFAFB6;
+  font-size: 16px;
+}
+
+.link-boxes .input-box input[type="button"] {
+  background: #fff;
+  color: #140B5C;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 4px 0;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.input-box input[type="button"]:hover {
+  opacity: 1;
+}
+
+footer .bottom-details {
+  width: 100%;
+  background: #0F0844;
+}
+
+footer .bottom-details .bottom_text {
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.bottom-details .bottom_text a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.bottom-details .bottom_text a {
+  margin-right: 10px;
+}
+
+@media (max-width: 900px) {
+  footer .content .link-boxes {
+    flex-wrap: wrap;
+  }
+
+  footer .content .link-boxes .input-box {
+    width: 40%;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  footer {
+    position: relative;
+  }
+
+  .content .top .logo-details {
+    font-size: 26px;
+  }
+
+  .content .top .media-icons a {
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    line-height: 35px;
+  }
+
+  footer .content .link-boxes .box {
+    width: calc(100% / 3 - 10px);
+  }
+
+  footer .content .link-boxes .input-box {
+    width: 60%;
+  }
+
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 520px) {
+  footer::before {
+    top: 145px;
+  }
+
+  footer .content .top {
+    flex-direction: column;
+  }
+
+  .content .top .media-icons {
+    margin-top: 16px;
+  }
+
+  footer .content .link-boxes .box {
+    width: calc(100% / 2 - 10px);
+  }
+
+  footer .content .link-boxes .input-box {
+    width: 100%;
+  }
+}
+
+
+
+/********************************************** shopping start *************************************/
+
+.rehanshop1 {
+  margin-top: 90px;
+  margin-left: 300px;
+}
+
+.rehanshop2 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+.rehanshop3 {
+  margin-top: 90px;
+  margin-left: 300px;
+}
+
+.rehanshop4 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+.rehanshop5 {
+  margin-top: 90px;
+  margin-left: 300px;
+}
+
+.rehanshop6 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+.rehanshop7 {
+  margin-top: 90px;
+  margin-left: 300px;
+}
+
+.rehanshop8 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+.rehanshop9 {
+  margin-top: 90px;
+  margin-left: 300px;
+}
+
+.rehanshop10 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+/********************************************** shopping end ***************************************/
+
+.rehansale1 {
+  margin-top: 90px;
+  margin-left: 300px;
+}
+
+.rehansale2 {
+  margin-top: -357px;
+  margin-left: 830px;
+}
+
+.rehansale3 {
+  margin-top: 90px;
+  margin-left: 300px;
+}
+
+.rehansale4 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+.rehansale5 {
+  margin-top: 90px;
+  margin-left: 300px;
+}
+
+.rehansale6 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+.rehansale7 {
+  margin-top: 90px;
+  margin-left: 300px;
+}
+
+.rehansale8 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+.rehansale9 {
+  margin-top: 90px;
+  margin-left: 300px;
+}
+
+.rehansale10 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+/************************************* sale end *****************************************/
+
+.rehanlatest1 {
+  margin-top: 90px;
+  margin-left: 300px;
+}
+
+.rehanlatest2 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+.rehanlatest3 {
+  margin-top: 150px;
+  margin-left: 300px;
+}
+
+.rehanlatest4 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+.rehanlatest5 {
+  margin-top: 150px;
+  margin-left: 300px;
+}
+
+.rehanlatest6 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+.rehanlatest7 {
+  margin-top: 150px;
+  margin-left: 300px;
+}
+
+.rehanlatest8 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+.rehanlatest9 {
+  margin-top: 160px;
+  margin-left: 300px;
+}
+
+.rehanlatest10 {
+  margin-top: -357px;
+  margin-left: 830px
+}
+
+/*********************************************** latest end ****************************************/
+
+.rehansearch {
+  margin-top: -18px;
+  width: 230px;
+}
+
+/*************************************** form srart *****************************************8*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://www.hmablogs.com/wp-content/uploads/2021/09/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* align items center vertically and horizontally  */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  /* height: 100vh; */
+}
+
+.form {
+  margin-top: 100px;
+  width: 350px;
+  height: 450px;
+  background-color: rgba(41, 39, 39, 0.3);
+  box-shadow: 0 5px 30px black;
+}
+
+.btn button {
+  padding: 3px;
+  margin: 30px 0px 40px 30px;
+  border-style: none;
+  background-color: transparent;
+  color: beige;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.formGroup {
+  display: flex;
+  justify-content: center;
+}
+
+.formGroup input {
+  border: none;
+  width: 80%;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+}
+
+input:focus {
+  outline: none !important;
+  border-bottom: 2px solid rgb(91, 243, 131);
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.checkBox {
+  display: flex;
+  justify-content: center;
+  margin: 16px !important;
+}
+
+#checkbox {
+  margin-right: 10px;
+  height: 15px;
+  width: 15px;
+}
+
+.text {
+  color: rgb(199, 197, 197);
+  font-size: 13px;
+}
+
+.btn2 {
+  padding: 10px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: rgb(10, 136, 43);
+  border-style: none;
+  color: white;
+  font-weight: 600;
+}
+
+.btn2:hover {
+  background-color: rgba(10, 136, 43, 0.5);
+}
+
+.btn button:hover {
+  border-bottom: 2px solid rgb(91, 243, 131);
+}
+
+/* hide signup form */
+.login {
+  display: none;
+}
+
+/* Login form code */
+.login {
+  margin-top: 40px;
+}
+
+.login .checkBox {
+  margin-top: 30px !important;
+}
+
+
+
+
+.BTT
+{
+  margin-left: 590px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all 0.4s ease;
+  list-style: none;
+  position: absolute;
+}
